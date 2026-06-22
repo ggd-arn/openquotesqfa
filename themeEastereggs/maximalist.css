@@ -1,0 +1,205 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    background: #111111;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+/* --- The Core Minimalist Structure (Unchanged Layout) --- */
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    gap: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    position: relative;
+}
+
+/* --- Typographic Main Quote Section: Clean Type Built Huge --- */
+.div1 {
+    font-size: 4.5em; /* Massive maximalist typography scale */
+    font-weight: 900; /* Ultra bold */
+    line-height: 1.1;
+    letter-spacing: -0.05em; /* Extremely tight tracking */
+    background: transparent;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.div1 h1 {
+    margin: 0;
+}
+
+.div1 h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #ff3b30; /* High-contrast striking accent color */
+    margin-top: 24px;
+    letter-spacing: 0.2em; /* Wide tracking for contrast */
+    text-transform: uppercase;
+}
+
+/* --- The Minimal Divider Line: Stretched to the Absolute Maximum --- */
+hr {
+    width: 100vw; /* Spans the entire viewport width */
+    border: none;
+    border-top: 8px solid #ffffff; /* Ultra thick line weight */
+    margin: 20px auto;
+}
+
+/* --- Layout Structure Reset --- */
+.div2, .div3, .div2alt {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+    background: transparent;
+    padding: 0;
+}
+
+/* --- Clean Text-Link Buttons: Stripped Frame, Maximum Scale --- */
+.genericButton {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5em; /* Large interactive scale */
+    font-weight: 800;
+    color: #ffffff;
+    background: transparent;
+    padding: 12px 0;
+    border: none;
+    border-bottom: 4px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    flex-shrink: 0;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.genericButton:hover {
+    color: #ff3b30;
+    border-bottom-color: #ff3b30;
+}
+
+.genericButton:active {
+    transform: none;
+    color: #555555;
+}
+
+/* Secondary Button Reset */
+.ALTBTN, .ALTBTNHELP {
+    background-color: transparent;
+    color: #ffffff;
+    width: auto;
+    height: auto;
+    padding: 12px 0;
+}
+
+/* --- Text Input Field: Spanned Wide --- */
+.tbow {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #333333;
+    padding: 12px 4px;
+    border-radius: 0;
+    font-size: 1.5px;
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 400px;
+    text-transform: uppercase;
+    transition: border-color 0.15s ease;
+}
+
+.tbow:focus {
+    outline: none;
+    border-bottom-color: #ffffff;
+}
+
+/* --- Brand Logo Positioning --- */
+.forceCentertt {
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+}
+
+/* --- Meta Labels and Info Boxes --- */
+.quoteIDheader {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #333333;
+}
+
+.tag {
+    padding: 0;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+/* Discovery Indicator Notification */
+.tag2 {
+    padding: 12px 32px;
+    background-color: #ffffff;
+    color: #111111;
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.disclaimerstuff {
+    text-align: center;
+    font-style: normal;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.info-box {
+    border-top: 4px solid #333333;
+    padding-top: 40px;
+}
+
+.info-box h2 {
+    max-width: 600px;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.fancyQuoteStuff {
+    font-style: normal;
+}
+
+.autohideBG {
+    background: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

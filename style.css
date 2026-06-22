@@ -1,0 +1,252 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    background: #ffffff;
+    
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 24px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.parentQB {
+    padding: 40px 40px;
+    border-style: solid;
+    border-color: #f5f5f5;
+    display: grid;
+    gap: 14px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.parentQBorderless {
+    padding: 40px 40px;
+    border-style: solid;
+    border-color: #f5f5f5;
+    display: grid;
+    gap: 14px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.qbH1 {
+    color: #757575;
+}
+
+.div1 {
+    font-size: 3em;
+    grid-column: 1 / -1;
+    background: #ffffff00;
+    border-radius: 0px;
+    padding: 10px;
+    color: #575757;
+    flex-direction: column;
+    text-align: center;
+}
+
+.div1 h1 {
+    
+    margin: 0 0 0px 0;
+}
+
+.div1 h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #666;
+}
+
+hr {
+    width: 40px;
+    border: 100px #7b03fc;
+    margin: 20px auto;
+}
+
+.div2 {
+    grid-column: 1 / -1;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 12px;  
+  }
+.qbVer {
+
+    justify-content: left;
+    align-items: left;
+ 
+}
+  
+
+.div3 {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.div1, .div2, .div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2alt {
+    padding: 14px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    grid-column: 1 / -1;
+}
+
+.genericButton {
+    font-family: "Inter";
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #ffffff;
+    background: #7b03fc;
+    padding: 12px 50px;
+    border-radius: 0px;
+    cursor: pointer;
+    white-space: nowrap;
+    border-color: #f5f5f5;
+    border-style: solid;
+    outline: none;
+    flex-shrink: 0;
+    letter-spacing: 0.01em;
+    transition: transform 0.1s ease;
+    font-style: normal;
+}
+
+.genericButton:active {
+    transform: scale(0.9);
+}
+
+
+.ALTBTN {
+    background-color: #ffffff;
+    color: #757575;
+}
+
+.reportBTN {
+    background-color: #ffcfcf;
+    color: #4e0b0b;
+    border-color: #ffc3c3;
+    width: 40px;
+    height: 40px;
+}
+
+.ALTBTNHELP {
+    color: #757575;
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forceCentertt {
+    text-align: center;
+    color: #7b03fc;
+    margin-top: 40px;
+}
+
+.tbow {
+    border-color: #ff0000;
+    color: #000000;
+    font-family: "Inter";
+    background-color: #ffffff;
+    border: 2px;
+    padding: 16px 20px;
+    border-radius: 0px;
+    font-size: 15px;
+    width: 100%;
+    max-width: 360px;
+    border-color: #b9b9b923;
+    border-style: solid;
+}
+
+.disclaimerstuff {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.6em;
+    color: #00000052;
+}
+
+.kofi {
+    text-align: center;
+}
+
+.autohideBG {
+    background: none;
+}
+
+.fancyQuoteStuff {
+    
+    color: #000000d5;
+    text-transform: lowercase;
+    font-weight: 800;
+    
+}
+
+.fcent {
+    text-align: center;
+}
+
+.flalign {
+    text-align: left;
+}
+
+.tag {
+    padding: 7px 14px;
+    background-color: #ecdbff6b;
+    color: #000000;
+    border-radius: 0px;
+}
+
+.tag2 {
+    padding: 8px 29px;
+    background-color: #7700ff;
+    color: #ffffff;
+    border-radius: 0px;
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-container h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.quoteIDheader {
+    color: #757575;
+}
+
+#kofi-floating-wrapper {
+    position: fixed;
+    bottom: 16px; 
+    left: 16px;
+    z-index: 6767;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    gap: 12px;
+}
+
