@@ -1,0 +1,226 @@
+/* --- Global 90s Document Overrides --- */
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    background-color: #bfbfbf; /* Classic Windows 95 light gray */
+    color: #000000;
+}
+
+/* --- Layout Grid Alignment --- */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 24px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* --- The Main Frame / Window Box (.div1) --- */
+.div1 {
+    font-size: 2.2em;
+    grid-column: 1 / -1;
+    background: #bfbfbf;
+    /* Inverted 3D bevel effect to look like an inset window field */
+    border-top: 3px solid #808080;
+    border-left: 3px solid #808080;
+    border-right: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    padding: 20px;
+    color: #000000;
+    flex-direction: column;
+    text-align: center;
+}
+
+.div1 h1 {
+    margin: 0 0 0px 0;
+}
+
+.div1 h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000080; /* Dark Navy Blue Title Text color */
+}
+
+/* Classic HTML Horizontal Rule */
+hr {
+    width: 90%;
+    border-top: 2px solid #808080;
+    border-bottom: 2px solid #ffffff;
+    border-left: none;
+    border-right: none;
+    margin: 20px auto;
+}
+
+/* --- Containers --- */
+.div2 {
+    grid-column: 1 / -1;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 12px;  
+}
+
+.div3 {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.div1, .div2, .div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2alt {
+    padding: 14px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    grid-column: 1 / -1;
+}
+
+/* --- Classic Outset Win95 Command Buttons --- */
+.genericButton {
+    font-family: "Arial", sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000000;
+    background: #bfbfbf;
+    padding: 6px 24px;
+    border-radius: 0px; /* Completely square corners */
+    cursor: pointer;
+    white-space: nowrap;
+    /* Rigid 3D outset shadow border style */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+    outline: 1px solid #000000;
+    flex-shrink: 0;
+    letter-spacing: 0.01em;
+    font-style: normal;
+    transition: none; /* No modern fluid animations */
+}
+
+/* The physical down-press indentation on active click */
+.genericButton:active {
+    transform: none;
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+.ALTBTN {
+    background-color: #bfbfbf;
+    color: #000000;
+}
+
+.ALTBTNHELP {
+    color: #000000;
+    background-color: #bfbfbf;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- Retro Page Header Typography --- */
+.forceCentertt {
+    text-align: center;
+    color: #0000ff; /* Bright blue pure primary code color */
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /* Peak 90s vibe */
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+/* --- Input Textbox Grid Frame --- */
+.tbow {
+    border-color: #ff0000;
+    color: #000000;
+    font-family: "Courier New", Courier, monospace; /* Monospace terminal text font */
+    background-color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 0px;
+    font-size: 15px;
+    width: 100%;
+    max-width: 360px;
+    /* Recessed dark input window borders */
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #dfdfdf;
+    border-bottom: 2px solid #dfdfdf;
+}
+
+.disclaimerstuff {
+    text-align: center;
+    font-style: normal;
+    font-size: 0.8em;
+    color: #ff0000; /* Bright red warnings */
+    font-family: "Arial", sans-serif;
+}
+
+.kofi {
+    text-align: center;
+}
+
+.autohideBG {
+    background: #ffffff; /* Strip dynamic transparency settings */
+}
+
+.fancyQuoteStuff {
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+
+.fcent {
+    text-align: center;
+}
+
+/* Plain Text Category Label Layout */
+.tag {
+    padding: 4px 8px;
+    background-color: #008080; /* Old school dark teal green */
+    color: #ffffff;
+    border-radius: 0px;
+    font-weight: bold;
+    border: 1px dashed #ffffff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-container h1 {
+    margin: 0;
+}
+
+/* Standard default bright underlined internet hyperlinks */
+a {
+    text-decoration: underline;
+    color: #0000ff;
+}
+
+a:visited {
+    color: #800080; /* Purple color trace route for old visited links */
+}
+
+.tag2 {
+    padding: 4px 8px;
+    background-color: #008080; /* Old school dark teal green */
+    color: #ffffff;
+    border-radius: 0px;
+    font-weight: bold;
+    border: 1px dashed #ffffff;
+}
