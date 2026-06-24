@@ -1,8 +1,37 @@
+:root {
+    --Bg: #ffffff;
+    --divBg: #ffffff;
+    --mainBorder: #f5f5f5;
+    --inpBorder: #b9b9b923;
+    --textColor: #000000;
+    --altTextColor: #000000d5;
+    --textColorMuted: #757575;
+    --div1TColor: #575757;
+    --h2TColor: #666666;
+    --discTColor: #00000052;
+    --uiAcc: #7b03fc;
+    --tagDivColor: #ecdbff6b;
+}
+
+[ui-themeCS="dark"] {
+    --Bg: #0d0d0f;
+    --divBg: #1a1a1f;
+    --mainBorder: #25252c00;
+    --inpBorder: #25252c50;
+    --textColor: #ffffff;
+    --altTextColor: #f0f0f5d5;
+    --textColorMuted: #9090a8;
+    --div1TColor: #9090a8;
+    --h2TColor: #55555f;
+    --discTColor: #55555f80;
+    --uiAcc: #7b03fc;
+    --tagDivColor: #25252c;
+}
 body {
     font-family: "Inter", sans-serif;
     font-style: normal;
-    background: #ffffff;
-    
+    background: var(--Bg);
+    color: var(--textColor);
 }
 
 .parent {
@@ -15,20 +44,21 @@ body {
 }
 
 .parentQaa {
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
 }
 
 .tcontentaa {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .parentQBaa {
     padding: 40px 40px;
     border-style: solid;
-    border-color: #f5f5f5;
+    border-color: var(--mainBorder);
+    background: var(--divBg);
     display: flex;
     align-items: flex-start;
     gap: 16px;
@@ -39,7 +69,8 @@ body {
 .parentQB {
     padding: 40px 40px;
     border-style: solid;
-    border-color: #f5f5f5;
+    border-color: var(--mainBorder);
+    background: var(--divBg);
     gap: 16px;
     max-width: 1000px;
     margin: 40px auto;
@@ -48,7 +79,7 @@ body {
 .parentQBorderless {
     padding: 40px 40px;
     border-style: solid;
-    border-color: #f5f5f5;
+    border-color: var(--mainBorder);
     display: grid;
     gap: 14px;
     max-width: 1000px;
@@ -56,7 +87,7 @@ body {
 }
 
 .qbH1 {
-    color: #757575;
+    color: var(--textColorMuted);
 }
 
 .div1 {
@@ -65,25 +96,24 @@ body {
     background: #ffffff00;
     border-radius: 0px;
     padding: 10px;
-    color: #575757;
+    color: var(--div1TColor);
     flex-direction: column;
     text-align: center;
 }
 
 .div1 h1 {
-    
     margin: 0 0 0px 0;
 }
 
 .div1 h2 {
     font-size: 1.2rem;
     font-weight: 400;
-    color: #666;
+    color: var(--h2TColor);
 }
 
 hr {
     width: 40px;
-    border: 100px #7b03fc;
+    border: 100px var(--uiAcc);
     margin: 20px auto;
 }
 
@@ -93,14 +123,12 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 12px;  
-  }
-.qbVer {
+}
 
+.qbVer {
     justify-content: left;
     align-items: left;
- 
 }
-  
 
 .div3 {
     grid-column: 1 / -1;
@@ -130,28 +158,31 @@ hr {
     font-size: 0.9em;
     font-weight: 600;
     color: #ffffff;
-    background: #7b03fc;
+    background: var(--uiAcc);
     padding: 12px 50px;
     border-radius: 0px;
     cursor: pointer;
     white-space: nowrap;
-    border-color: #f5f5f5;
+    border-color: var(--mainBorder);
     border-style: solid;
     outline: none;
     flex-shrink: 0;
     letter-spacing: 0.01em;
-    transition: transform 0.1s ease;
+    transition: transform 0.1s ease, background-color 0.2s ease, color 0.2s ease;
     font-style: normal;
+}
+
+.forceNoBorder {
+    border-style: none;
 }
 
 .genericButton:active {
     transform: scale(0.9);
 }
 
-
 .ALTBTN {
-    background-color: #ffffff;
-    color: #757575;
+    background-color: var(--divBg);
+    color: var(--textColorMuted);
 }
 
 .clearBTN {
@@ -169,8 +200,8 @@ hr {
 }
 
 .ALTBTNHELP {
-    color: #757575;
-    background-color: #ffffff;
+    color: var(--textColorMuted);
+    background-color: var(--divBg);
     width: 40px;
     height: 40px;
     padding: 0;
@@ -181,22 +212,21 @@ hr {
 
 .forceCentertt {
     text-align: center;
-    color: #7b03fc;
+    color: var(--uiAcc);
     margin-top: 40px;
 }
 
 .tbow {
-    border-color: #ff0000;
-    color: #000000;
+    border-color: var(--inpBorder);
+    color: var(--textColor);
     font-family: "Inter";
-    background-color: #ffffff;
+    background-color: var(--divBg);
     border: 2px;
     padding: 16px 20px;
     border-radius: 0px;
     font-size: 15px;
     width: 100%;
     max-width: 360px;
-    border-color: #b9b9b923;
     border-style: solid;
 }
 
@@ -204,7 +234,7 @@ hr {
     text-align: center;
     font-style: italic;
     font-size: 0.6em;
-    color: #00000052;
+    color: var(--discTColor);
 }
 
 .kofi {
@@ -216,11 +246,9 @@ hr {
 }
 
 .fancyQuoteStuff {
+    color: var(--altTextColor);
     
-    color: #000000d5;
-    text-transform: lowercase;
     font-weight: 800;
-    
 }
 
 .fcent {
@@ -233,18 +261,17 @@ hr {
 
 .tag {
     padding: 7px 14px;
-    background-color: #ecdbff6b;
-    color: #000000;
+    background-color: var(--tagDivColor);
+    color: var(--textColor);
     border-radius: 0px;
 }
 
 .tag2 {
     padding: 8px 29px;
-    background-color: #7700ff;
+    background-color: var(--uiAcc);
     color: #ffffff;
     border-radius: 0px;
 }
-
 
 .logo-container {
     display: flex;
@@ -262,7 +289,7 @@ a {
 }
 
 .quoteIDheader {
-    color: #757575;
+    color: var(--textColorMuted);
 }
 
 #kofi-floating-wrapper {
@@ -276,4 +303,3 @@ a {
     padding: 3px;
     gap: 12px;
 }
-
