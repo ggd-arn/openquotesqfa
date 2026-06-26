@@ -268,5 +268,545 @@
     "text": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
     "author": "- Ralph Waldo Emerson",
     "tags": "leadership, motivation"
+  },
+    {
+    "id": 46,
+    "text": "Imagination is more important than knowledge.",
+    "author": "- Albert Einstein",
+    "tags": "imagination, science"
+  },
+  {
+    "id": 47,
+    "text": "Logic will get you from A to B. Imagination will take you everywhere.",
+    "author": "- Albert Einstein",
+    "tags": "imagination, science"
+  },
+  {
+    "id": 48,
+    "text": "Try not to become a man of success, but rather try to become a man of value.",
+    "author": "- Albert Einstein",
+    "tags": "success, wisdom"
+  },
+  {
+    "id": 49,
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "- Winston Churchill",
+    "tags": "courage, success"
+  },
+  {
+    "id": 50,
+    "text": "We make a living by what we get, but we make a life by what we give.",
+    "author": "- Winston Churchill",
+    "tags": "life, compassion"
+  },
+  {
+    "id": 51,
+    "text": "It always seems impossible until it's done.",
+    "author": "- Nelson Mandela",
+    "tags": "motivation, growth"
+  },
+  {
+    "id": 52,
+    "text": "Education is the most powerful weapon which you can use to change the world.",
+    "author": "- Nelson Mandela",
+    "tags": "learning, leadership"
+  },
+  {
+    "id": 53,
+    "text": "Darkness cannot drive out darkness: only light can do that.",
+    "author": "- Martin Luther King Jr.",
+    "tags": "peace, wisdom"
+  },
+  {
+    "id": 54,
+    "text": "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.",
+    "author": "- Martin Luther King Jr.",
+    "tags": "courage, wisdom"
+  },
+  {
+    "id": 55,
+    "text": "The future depends on what you do today.",
+    "author": "- Mahatma Gandhi",
+    "tags": "motivation, growth"
+  },
+  {
+    "id": 56,
+    "text": "Where there is love there is life.",
+    "author": "- Mahatma Gandhi",
+    "tags": "love, life"
+  },
+  {
+    "id": 57,
+    "text": "Believe you can and you're halfway there.",
+    "author": "- Theodore Roosevelt",
+    "tags": "motivation"
+  },
+  {
+    "id": 58,
+    "text": "Nothing in the world is worth having or worth doing unless it means effort, pain, and difficulty.",
+    "author": "- Theodore Roosevelt",
+    "tags": "growth, motivation"
+  },
+  {
+    "id": 59,
+    "text": "It is not the strongest of the species that survives, but the most adaptable.",
+    "author": "- Charles Darwin",
+    "tags": "science, growth"
+  },
+  {
+    "id": 60,
+    "text": "If I have seen further, it is by standing on the shoulders of giants.",
+    "author": "- Isaac Newton",
+    "tags": "science, wisdom"
+  },
+  {
+    "id": 61,
+    "text": "All truths are easy to understand once they are discovered; the point is to discover them.",
+    "author": "- Galileo Galilei",
+    "tags": "science, wisdom"
+  },
+  {
+    "id": 62,
+    "text": "The present is theirs; the future, for which I really worked, is mine.",
+    "author": "- Nikola Tesla",
+    "tags": "science, motivation"
+  },
+  {
+    "id": 63,
+    "text": "Luck is what happens when preparation meets opportunity.",
+    "author": "- Seneca",
+    "tags": "philosophy, success"
+  },
+  {
+    "id": 64,
+    "text": "The happiness of your life depends upon the quality of your thoughts.",
+    "author": "- Marcus Aurelius",
+    "tags": "philosophy, mindset"
+  },
+  {
+    "id": 65,
+    "text": "The only true wisdom is in knowing you know nothing.",
+    "author": "- Socrates",
+    "tags": "philosophy, wisdom"
+  },
+  {
+    "id": 66,
+    "text": "The secret of change is to focus all of your energy not on fighting the old, but on building the new.",
+    "author": "- Socrates",
+    "tags": "change, wisdom"
+  },
+  {
+    "id": 67,
+    "text": "Peace comes from within. Do not seek it without.",
+    "author": "- Buddha",
+    "tags": "peace, philosophy"
+  },
+  {
+    "id": 68,
+    "text": "Three things cannot be long hidden: the sun, the moon, and the truth.",
+    "author": "- Buddha",
+    "tags": "truth, wisdom"
+  },
+  {
+    "id": 69,
+    "text": "He who learns but does not think is lost. He who thinks but does not learn is in great danger.",
+    "author": "- Confucius",
+    "tags": "learning, philosophy"
+  },
+  {
+    "id": 70,
+    "text": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "- Confucius",
+    "tags": "motivation, growth"
+  },
+  {
+    "id": 71,
+    "text": "Knowing yourself is the beginning of all wisdom.",
+    "author": "- Aristotle",
+    "tags": "wisdom, philosophy"
+  },
+  {
+    "id": 72,
+    "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "- Aristotle",
+    "tags": "growth, motivation"
+  },
+  {
+    "id": 73,
+    "text": "The beginning is the most important part of the work.",
+    "author": "- Plato",
+    "tags": "motivation, wisdom"
+  },
+  {
+    "id": 74,
+    "text": "Nature does not hurry, yet everything is accomplished.",
+    "author": "- Lao Tzu",
+    "tags": "philosophy, patience"
+  },
+  {
+    "id": 75,
+    "text": "The only constant in life is change.",
+    "author": "- Heraclitus",
+    "tags": "life, philosophy"
+  },
+  {
+    "id": 76,
+    "text": "Wealth consists not in having great possessions, but in having few wants.",
+    "author": "- Epictetus",
+    "tags": "wisdom, philosophy"
+  },
+  {
+    "id": 77,
+    "text": "It's not what happens to you, but how you react to it that matters.",
+    "author": "- Epictetus",
+    "tags": "mindset, philosophy"
+  },
+  {
+    "id": 78,
+    "text": "The only way to do great work is to love what you do.",
+    "author": "- Steve Jobs",
+    "tags": "motivation, success"
+  },
+  {
+    "id": 79,
+    "text": "Your time is limited, so don't waste it living someone else's life.",
+    "author": "- Steve Jobs",
+    "tags": "life, motivation"
+  },
+  {
+    "id": 80,
+    "text": "Whether you think you can, or you think you can't, you're right.",
+    "author": "- Henry Ford",
+    "tags": "mindset, motivation"
+  },
+  {
+    "id": 81,
+    "text": "Failure is simply the opportunity to begin again, this time more wisely.",
+    "author": "- Henry Ford",
+    "tags": "growth, motivation"
+  },
+  {
+    "id": 82,
+    "text": "The way to get started is to quit talking and begin doing.",
+    "author": "- Walt Disney",
+    "tags": "motivation, success"
+  },
+  {
+    "id": 83,
+    "text": "All our dreams can come true, if we have the courage to pursue them.",
+    "author": "- Walt Disney",
+    "tags": "courage, dreams"
+  },
+  {
+    "id": 84,
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "- Eleanor Roosevelt",
+    "tags": "dreams, motivation"
+  },
+  {
+    "id": 85,
+    "text": "No one can make you feel inferior without your consent.",
+    "author": "- Eleanor Roosevelt",
+    "tags": "wisdom, courage"
+  },
+  {
+    "id": 86,
+    "text": "Do one thing every day that scares you.",
+    "author": "- Eleanor Roosevelt",
+    "tags": "courage, growth"
+  },
+  {
+    "id": 87,
+    "text": "Try to be a rainbow in someone's cloud.",
+    "author": "- Maya Angelou",
+    "tags": "compassion, life"
+  },
+  {
+    "id": 88,
+    "text": "If you don't like something, change it. If you can't change it, change your attitude.",
+    "author": "- Maya Angelou",
+    "tags": "mindset, growth"
+  },
+  {
+    "id": 89,
+    "text": "Although the world is full of suffering, it is full also of the overcoming of it.",
+    "author": "- Helen Keller",
+    "tags": "courage, growth"
+  },
+  {
+    "id": 90,
+    "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "author": "- Ralph Waldo Emerson",
+    "tags": "wisdom, growth"
+  },
+  {
+    "id": 91,
+    "text": "The only person you are destined to become is the person you decide to be.",
+    "author": "- Ralph Waldo Emerson",
+    "tags": "growth, motivation"
+  },
+  {
+    "id": 92,
+    "text": "Go confidently in the direction of your dreams. Live the life you have imagined.",
+    "author": "- Henry David Thoreau",
+    "tags": "dreams, motivation"
+  },
+  {
+    "id": 93,
+    "text": "It's not what you look at that matters, it's what you see.",
+    "author": "- Henry David Thoreau",
+    "tags": "wisdom, philosophy"
+  },
+  {
+    "id": 94,
+    "text": "Keep your face always toward the sunshine, and shadows will fall behind you.",
+    "author": "- Walt Whitman",
+    "tags": "motivation, life"
+  },
+  {
+    "id": 95,
+    "text": "Tell me and I forget, teach me and I may remember, involve me and I learn.",
+    "author": "- Benjamin Franklin",
+    "tags": "learning, wisdom"
+  },
+  {
+    "id": 96,
+    "text": "By failing to prepare, you are preparing to fail.",
+    "author": "- Benjamin Franklin",
+    "tags": "growth, motivation"
+  },
+  {
+    "id": 97,
+    "text": "Lost time is never found again.",
+    "author": "- Benjamin Franklin",
+    "tags": "time, wisdom"
+  },
+  {
+    "id": 98,
+    "text": "I would rather die of passion than of boredom.",
+    "author": "- Vincent van Gogh",
+    "tags": "life, art"
+  },
+  {
+    "id": 99,
+    "text": "Great things are done by a series of small things brought together.",
+    "author": "- Vincent van Gogh",
+    "tags": "growth, art"
+  },
+  {
+    "id": 100,
+    "text": "Learning never exhausts the mind.",
+    "author": "- Leonardo da Vinci",
+    "tags": "learning, wisdom"
+  },
+  {
+    "id": 101,
+    "text": "There is only one corner of the universe you can be certain of improving, and that's your own self.",
+    "author": "- Aldous Huxley",
+    "tags": "growth, philosophy"
+  },
+  {
+    "id": 102,
+    "text": "You are never too old to set another goal or to dream a new dream.",
+    "author": "- C.S. Lewis",
+    "tags": "dreams, motivation"
+  },
+  {
+    "id": 103,
+    "text": "Life shrinks or expands in proportion to one's courage.",
+    "author": "- Anaïs Nin",
+    "tags": "courage, life"
+  },
+  {
+    "id": 104,
+    "text": "The wound is the place where the light enters you.",
+    "author": "- Rumi",
+    "tags": "philosophy, growth"
+  },
+  {
+    "id": 105,
+    "text": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
+    "author": "- Rumi",
+    "tags": "wisdom, growth"
+  },
+  {
+    "id": 106,
+    "text": "Out of suffering have emerged the strongest souls.",
+    "author": "- Kahlil Gibran",
+    "tags": "growth, courage"
+  },
+  {
+    "id": 107,
+    "text": "Even the darkest night will end and the sun will rise.",
+    "author": "- Victor Hugo",
+    "tags": "hope, life"
+  },
+  {
+    "id": 108,
+    "text": "No one is useless in this world who lightens the burdens of another.",
+    "author": "- Charles Dickens",
+    "tags": "compassion, life"
+  },
+  {
+    "id": 109,
+    "text": "There is nothing I would not do for those who are really my friends.",
+    "author": "- Jane Austen",
+    "tags": "friendship, literature"
+  },
+  {
+    "id": 110,
+    "text": "It is not in the stars to hold our destiny but in ourselves.",
+    "author": "- William Shakespeare",
+    "tags": "literature, motivation"
+  },
+  {
+    "id": 111,
+    "text": "This above all: to thine own self be true.",
+    "author": "- William Shakespeare",
+    "tags": "literature, wisdom"
+  },
+  {
+    "id": 112,
+    "text": "We are all in the gutter, but some of us are looking at the stars.",
+    "author": "- Oscar Wilde",
+    "tags": "life, philosophy"
+  },
+  {
+    "id": 113,
+    "text": "He who has a why to live for can bear with almost any how.",
+    "author": "- Friedrich Nietzsche",
+    "tags": "philosophy, motivation"
+  },
+  {
+    "id": 114,
+    "text": "Failure is impossible.",
+    "author": "- Susan B. Anthony",
+    "tags": "motivation, courage"
+  },
+  {
+    "id": 115,
+    "text": "The most difficult thing is the decision to act, the rest is merely tenacity.",
+    "author": "- Amelia Earhart",
+    "tags": "courage, motivation"
+  },
+  {
+    "id": 116,
+    "text": "Adventure is worthwhile in itself.",
+    "author": "- Amelia Earhart",
+    "tags": "adventure, courage"
+  },
+  {
+    "id": 117,
+    "text": "You must never be fearful about what you are doing when it is right.",
+    "author": "- Rosa Parks",
+    "tags": "courage, motivation"
+  },
+  {
+    "id": 118,
+    "text": "Success is to be measured not so much by the position that one has reached in life as by the obstacles which he has overcome.",
+    "author": "- Booker T. Washington",
+    "tags": "success, growth"
+  },
+  {
+    "id": 119,
+    "text": "One never notices what has been done; one can only see what remains to be done.",
+    "author": "- Marie Curie",
+    "tags": "growth, motivation"
+  },
+  {
+    "id": 120,
+    "text": "I find television very educational. Every time someone switches it on, I go into another room and read a book.",
+    "author": "- Groucho Marx",
+    "tags": "humor"
+  },
+  {
+    "id": 121,
+    "text": "Even if you're on the right track, you'll get run over if you just sit there.",
+    "author": "- Will Rogers",
+    "tags": "humor, motivation"
+  },
+  {
+    "id": 122,
+    "text": "If you think you are too small to make a difference, try sleeping with a mosquito.",
+    "author": "- Dalai Lama",
+    "tags": "humor, wisdom"
+  },
+  {
+    "id": 123,
+    "text": "Do not take life too seriously. You will never get out of it alive.",
+    "author": "- Elbert Hubbard",
+    "tags": "humor, life"
+  },
+  {
+    "id": 124,
+    "text": "A friend is someone who knows all about you and still loves you.",
+    "author": "- Elbert Hubbard",
+    "tags": "friendship, compassion"
+  },
+  {
+    "id": 125,
+    "text": "Time is the most valuable thing a man can spend.",
+    "author": "- Theophrastus",
+    "tags": "time, wisdom"
+  },
+  {
+    "id": 126,
+    "text": "Change is the law of life. And those who look only to the past or present are certain to miss the future.",
+    "author": "- John F. Kennedy",
+    "tags": "change, motivation"
+  },
+  {
+    "id": 127,
+    "text": "Simplicity is the keynote of all true elegance.",
+    "author": "- Coco Chanel",
+    "tags": "simplicity, art"
+  },
+  {
+    "id": 128,
+    "text": "Creativity takes courage.",
+    "author": "- Henri Matisse",
+    "tags": "creativity, courage"
+  },
+  {
+    "id": 129,
+    "text": "Hope is being able to see that there is light despite all of the darkness.",
+    "author": "- Desmond Tutu",
+    "tags": "hope, courage"
+  },
+  {
+    "id": 130,
+    "text": "Patience is bitter, but its fruit is sweet.",
+    "author": "- Jean-Jacques Rousseau",
+    "tags": "patience, growth"
+  },
+  {
+    "id": 131,
+    "text": "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+    "author": "- Christian D. Larson",
+    "tags": "motivation, courage"
+  },
+  {
+    "id": 132,
+    "text": "The best thing to hold onto in life is each other.",
+    "author": "- Audrey Hepburn",
+    "tags": "love, life"
+  },
+  {
+    "id": 133,
+    "text": "Twenty years from now you will be more disappointed by the things you didn't do than by the ones you did.",
+    "author": "- Mark Twain",
+    "tags": "courage, motivation"
+  },
+  {
+    "id": 134,
+    "text": "Adventure may hurt you, but monotony will kill you.",
+    "author": "- Anonymous",
+    "tags": "adventure, life"
+  },
+  {
+    "id": 135,
+    "text": "Gratitude turns what we have into enough.",
+    "author": "- Anonymous",
+    "tags": "gratitude, wisdom"
   }
 ]
